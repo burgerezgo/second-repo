@@ -12,13 +12,13 @@ func main() {
 }
 
 func beyondhello() {
-    var uid int
-    uid=100
+	var uid int
+	uid = 100
 	sum, prod := third()
-    total := fourth(uid)
+	total := fourth(uid)
 	fmt.Println(sum, prod)
-    fmt.Println(total)
-    fmt.Println(fourth(uid))
+	fmt.Println(total)
+	fmt.Println(fourth(uid))
 }
 
 func third() (summ, prodd int) {
@@ -31,9 +31,9 @@ func third() (summ, prodd int) {
 
 }
 
-func fourth(id int) (bsdfdfdfdfdfdfdftotal int){
-    var hh, tt int
-    tt=100
-    hh=id+tt
-    return hh
+func fourth(id int) (bsdfdfdfdfdfdfdftotal int) {
+	var hh, tt int
+	tt = 100
+	hh = id + tt
+	return hh
 }
